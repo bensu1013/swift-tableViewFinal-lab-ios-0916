@@ -78,7 +78,7 @@ class PlanetTableViewController: UITableViewController {
         let earthFacts = [
             "Earth is the only planet not named after a god.",
             "Earth has a powerful magnetic field.",
-            "The Earth was once believed to be the centre of the universe."
+            "The Earth was once believed to be the center of the universe."
         ]
         let earth = Planet(name: "Earth", numberOfMoons: 1, fullOrbit: 365.26, facts: earthFacts)
         planets.append(earth)

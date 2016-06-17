@@ -1,0 +1,6 @@
+framework module Pods_TableViewFinal {
+  umbrella header "Pods-TableViewFinal-umbrella.h"
+
+  export *
+  module * { export * }
+}
