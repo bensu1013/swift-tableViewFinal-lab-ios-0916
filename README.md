@@ -3,12 +3,10 @@
 ![Albert](http://i.imgur.com/ppc5nAG.jpg?1)  
 
 > If you want to live a happy life, tie it to a goal, not to people or things. ~[Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein)
- 
 
-## Learning Objectives - The student should be able to..
+## Learning Objectives
 
 * Complete this lab
-
 
 ## What the student can do at this point 
 
