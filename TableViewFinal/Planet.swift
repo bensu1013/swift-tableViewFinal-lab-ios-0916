@@ -9,4 +9,16 @@
 import Foundation
 
 class Planet {
+    let name: String
+    let numberOfMoons: Int
+    let fullOrbit: Double
+    var facts: [String] = []
+    
+    init(name: String, numberOfMoons: Int, fullOrbit: Double, facts: [String] = []) {
+        self.name = name
+        self.numberOfMoons = numberOfMoons
+        self.fullOrbit = fullOrbit
+        self.facts = facts
+    }
+    
 }
