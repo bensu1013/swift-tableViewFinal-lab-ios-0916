@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FactTableVIewCell: UITableViewCell {
+class FactTableViewCell: UITableViewCell {
 
     @IBOutlet weak var factTextView: UITextView!
     
@@ -19,5 +19,4 @@ class FactTableVIewCell: UITableViewCell {
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-
 }

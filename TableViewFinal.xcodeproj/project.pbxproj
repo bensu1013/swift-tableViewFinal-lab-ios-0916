@@ -18,7 +18,7 @@
 		5BEE48FF1D149E2A00F7B63E /* PlanetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48FE1D149E2A00F7B63E /* PlanetTableViewCell.swift */; };
 		5BEE49011D149E9700F7B63E /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49001D149E9700F7B63E /* Planet.swift */; };
 		5BEE49031D149F5300F7B63E /* PlanetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49021D149F5300F7B63E /* PlanetTableViewController.swift */; };
-		5BEE49051D14A4ED00F7B63E /* FactTableVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49041D14A4ED00F7B63E /* FactTableVIewCell.swift */; };
+		5BEE49051D14A4ED00F7B63E /* FactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49041D14A4ED00F7B63E /* FactTableViewCell.swift */; };
 		5BEE49071D14A5A400F7B63E /* FactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49061D14A5A400F7B63E /* FactTableViewController.swift */; };
 		66420485054FD749E1A70134 /* Pods_TableViewFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89258226350DFFF3F41F611 /* Pods_TableViewFinal.framework */; };
 		710279A63B01D26FE455091F /* Pods_TableViewFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDECAD872819604B716CCE1 /* Pods_TableViewFinalTests.framework */; };
@@ -61,7 +61,7 @@
 		5BEE48FE1D149E2A00F7B63E /* PlanetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCell.swift; sourceTree = "<group>"; };
 		5BEE49001D149E9700F7B63E /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		5BEE49021D149F5300F7B63E /* PlanetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableViewController.swift; sourceTree = "<group>"; };
-		5BEE49041D14A4ED00F7B63E /* FactTableVIewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactTableVIewCell.swift; sourceTree = "<group>"; };
+		5BEE49041D14A4ED00F7B63E /* FactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactTableViewCell.swift; sourceTree = "<group>"; };
 		5BEE49061D14A5A400F7B63E /* FactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactTableViewController.swift; sourceTree = "<group>"; };
 		5FBD434E219763D41C4DFE29 /* Pods-TableViewFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFinalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewFinalUITests/Pods-TableViewFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
 		66F71C5B2A22B6765D669F48 /* Pods-TableViewFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewFinalUITests/Pods-TableViewFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 				5BEE48FE1D149E2A00F7B63E /* PlanetTableViewCell.swift */,
 				5BEE49021D149F5300F7B63E /* PlanetTableViewController.swift */,
 				5BEE49001D149E9700F7B63E /* Planet.swift */,
-				5BEE49041D14A4ED00F7B63E /* FactTableVIewCell.swift */,
+				5BEE49041D14A4ED00F7B63E /* FactTableViewCell.swift */,
 				5BEE49061D14A5A400F7B63E /* FactTableViewController.swift */,
 				5BEE48FD1D1495A000F7B63E /* Supporting Files */,
 			);
@@ -452,7 +452,7 @@
 			files = (
 				5BEE48D21D14959400F7B63E /* ViewController.swift in Sources */,
 				5BEE49071D14A5A400F7B63E /* FactTableViewController.swift in Sources */,
-				5BEE49051D14A4ED00F7B63E /* FactTableVIewCell.swift in Sources */,
+				5BEE49051D14A4ED00F7B63E /* FactTableViewCell.swift in Sources */,
 				5BEE49031D149F5300F7B63E /* PlanetTableViewController.swift in Sources */,
 				5BEE48D01D14959400F7B63E /* AppDelegate.swift in Sources */,
 				5BEE48FF1D149E2A00F7B63E /* PlanetTableViewCell.swift in Sources */,
