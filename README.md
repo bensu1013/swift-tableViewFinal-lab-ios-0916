@@ -7,6 +7,7 @@
 ## Learning Objectives
 
 * Complete this lab
+* There are tests written which should pass before submitting this lab
 
 ## Directions
 
