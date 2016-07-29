@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43EC76E1EDC04B20751C6514 /* Pods_TableViewFinalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B432066AAF5262374D9C6C /* Pods_TableViewFinalUITests.framework */; };
+		5B763E891D4B9AA800B6722E /* PlanetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B763E881D4B9AA800B6722E /* PlanetTests.swift */; };
+		5B763E8E1D4BA34600B6722E /* PlanetTableVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B763E8D1D4BA34600B6722E /* PlanetTableVCTests.swift */; };
 		5BEE48D01D14959400F7B63E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48CF1D14959400F7B63E /* AppDelegate.swift */; };
-		5BEE48D21D14959400F7B63E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48D11D14959400F7B63E /* ViewController.swift */; };
 		5BEE48D51D14959400F7B63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE48D31D14959400F7B63E /* Main.storyboard */; };
 		5BEE48D71D14959400F7B63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE48D61D14959400F7B63E /* Assets.xcassets */; };
 		5BEE48DA1D14959400F7B63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE48D81D14959400F7B63E /* LaunchScreen.storyboard */; };
 		5BEE48E51D14959500F7B63E /* TableViewFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48E41D14959500F7B63E /* TableViewFinalTests.swift */; };
-		5BEE48F01D14959500F7B63E /* TableViewFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48EF1D14959500F7B63E /* TableViewFinalUITests.swift */; };
 		5BEE48FF1D149E2A00F7B63E /* PlanetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE48FE1D149E2A00F7B63E /* PlanetTableViewCell.swift */; };
 		5BEE49011D149E9700F7B63E /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49001D149E9700F7B63E /* Planet.swift */; };
 		5BEE49031D149F5300F7B63E /* PlanetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49021D149F5300F7B63E /* PlanetTableViewController.swift */; };
-		5BEE49051D14A4ED00F7B63E /* FactTableVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49041D14A4ED00F7B63E /* FactTableVIewCell.swift */; };
+		5BEE49051D14A4ED00F7B63E /* FactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49041D14A4ED00F7B63E /* FactTableViewCell.swift */; };
 		5BEE49071D14A5A400F7B63E /* FactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE49061D14A5A400F7B63E /* FactTableViewController.swift */; };
 		66420485054FD749E1A70134 /* Pods_TableViewFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89258226350DFFF3F41F611 /* Pods_TableViewFinal.framework */; };
 		710279A63B01D26FE455091F /* Pods_TableViewFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDECAD872819604B716CCE1 /* Pods_TableViewFinalTests.framework */; };
@@ -32,22 +31,16 @@
 			remoteGlobalIDString = 5BEE48CB1D14959400F7B63E;
 			remoteInfo = TableViewFinal;
 		};
-		5BEE48EC1D14959500F7B63E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5BEE48C41D14959400F7B63E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BEE48CB1D14959400F7B63E;
-			remoteInfo = TableViewFinal;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		26F11E0F043CF0B307CE7079 /* Pods-TableViewFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewFinal/Pods-TableViewFinal.debug.xcconfig"; sourceTree = "<group>"; };
 		2DDECAD872819604B716CCE1 /* Pods_TableViewFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38187671D03F27E2180ED44D /* Pods-TableViewFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFinalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewFinalTests/Pods-TableViewFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B763E881D4B9AA800B6722E /* PlanetTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTests.swift; sourceTree = "<group>"; };
+		5B763E8D1D4BA34600B6722E /* PlanetTableVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableVCTests.swift; sourceTree = "<group>"; };
 		5BEE48CC1D14959400F7B63E /* TableViewFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEE48CF1D14959400F7B63E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BEE48D11D14959400F7B63E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BEE48D41D14959400F7B63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BEE48D61D14959400F7B63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BEE48D91D14959400F7B63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,13 +48,11 @@
 		5BEE48E01D14959500F7B63E /* TableViewFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEE48E41D14959500F7B63E /* TableViewFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFinalTests.swift; sourceTree = "<group>"; };
 		5BEE48E61D14959500F7B63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BEE48EB1D14959500F7B63E /* TableViewFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BEE48EF1D14959500F7B63E /* TableViewFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewFinalUITests.swift; sourceTree = "<group>"; };
 		5BEE48F11D14959500F7B63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BEE48FE1D149E2A00F7B63E /* PlanetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCell.swift; sourceTree = "<group>"; };
 		5BEE49001D149E9700F7B63E /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 		5BEE49021D149F5300F7B63E /* PlanetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTableViewController.swift; sourceTree = "<group>"; };
-		5BEE49041D14A4ED00F7B63E /* FactTableVIewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactTableVIewCell.swift; sourceTree = "<group>"; };
+		5BEE49041D14A4ED00F7B63E /* FactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactTableViewCell.swift; sourceTree = "<group>"; };
 		5BEE49061D14A5A400F7B63E /* FactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactTableViewController.swift; sourceTree = "<group>"; };
 		5FBD434E219763D41C4DFE29 /* Pods-TableViewFinalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFinalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewFinalUITests/Pods-TableViewFinalUITests.release.xcconfig"; sourceTree = "<group>"; };
 		66F71C5B2A22B6765D669F48 /* Pods-TableViewFinalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewFinalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewFinalUITests/Pods-TableViewFinalUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,14 +79,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BEE48E81D14959500F7B63E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43EC76E1EDC04B20751C6514 /* Pods_TableViewFinalUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -110,6 +93,15 @@
 				5FBD434E219763D41C4DFE29 /* Pods-TableViewFinalUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5B763E8A1D4BA09A00B6722E /* Test Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE48E41D14959500F7B63E /* TableViewFinalTests.swift */,
+				5BEE48E61D14959500F7B63E /* Info.plist */,
+			);
+			name = "Test Supporting Files";
 			sourceTree = "<group>";
 		};
 		5BEE48C31D14959400F7B63E = {
@@ -129,7 +121,6 @@
 			children = (
 				5BEE48CC1D14959400F7B63E /* TableViewFinal.app */,
 				5BEE48E01D14959500F7B63E /* TableViewFinalTests.xctest */,
-				5BEE48EB1D14959500F7B63E /* TableViewFinalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,12 +129,11 @@
 			isa = PBXGroup;
 			children = (
 				5BEE48CF1D14959400F7B63E /* AppDelegate.swift */,
-				5BEE48D11D14959400F7B63E /* ViewController.swift */,
 				5BEE48D31D14959400F7B63E /* Main.storyboard */,
 				5BEE48FE1D149E2A00F7B63E /* PlanetTableViewCell.swift */,
 				5BEE49021D149F5300F7B63E /* PlanetTableViewController.swift */,
 				5BEE49001D149E9700F7B63E /* Planet.swift */,
-				5BEE49041D14A4ED00F7B63E /* FactTableVIewCell.swift */,
+				5BEE49041D14A4ED00F7B63E /* FactTableViewCell.swift */,
 				5BEE49061D14A5A400F7B63E /* FactTableViewController.swift */,
 				5BEE48FD1D1495A000F7B63E /* Supporting Files */,
 			);
@@ -153,8 +143,9 @@
 		5BEE48E31D14959500F7B63E /* TableViewFinalTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BEE48E41D14959500F7B63E /* TableViewFinalTests.swift */,
-				5BEE48E61D14959500F7B63E /* Info.plist */,
+				5B763E881D4B9AA800B6722E /* PlanetTests.swift */,
+				5B763E8D1D4BA34600B6722E /* PlanetTableVCTests.swift */,
+				5B763E8A1D4BA09A00B6722E /* Test Supporting Files */,
 			);
 			path = TableViewFinalTests;
 			sourceTree = "<group>";
@@ -162,7 +153,6 @@
 		5BEE48EE1D14959500F7B63E /* TableViewFinalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5BEE48EF1D14959500F7B63E /* TableViewFinalUITests.swift */,
 				5BEE48F11D14959500F7B63E /* Info.plist */,
 			);
 			path = TableViewFinalUITests;
@@ -232,26 +222,6 @@
 			productReference = 5BEE48E01D14959500F7B63E /* TableViewFinalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5BEE48EA1D14959500F7B63E /* TableViewFinalUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BEE48FA1D14959500F7B63E /* Build configuration list for PBXNativeTarget "TableViewFinalUITests" */;
-			buildPhases = (
-				1D9450B497EB55D82D15677E /* [CP] Check Pods Manifest.lock */,
-				5BEE48E71D14959500F7B63E /* Sources */,
-				5BEE48E81D14959500F7B63E /* Frameworks */,
-				5BEE48E91D14959500F7B63E /* Resources */,
-				104C0D5F87721B2338D06FAC /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5BEE48ED1D14959500F7B63E /* PBXTargetDependency */,
-			);
-			name = TableViewFinalUITests;
-			productName = TableViewFinalUITests;
-			productReference = 5BEE48EB1D14959500F7B63E /* TableViewFinalUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -266,10 +236,6 @@
 						CreatedOnToolsVersion = 7.3.1;
 					};
 					5BEE48DF1D14959500F7B63E = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 5BEE48CB1D14959400F7B63E;
-					};
-					5BEE48EA1D14959500F7B63E = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 5BEE48CB1D14959400F7B63E;
 					};
@@ -290,7 +256,6 @@
 			targets = (
 				5BEE48CB1D14959400F7B63E /* TableViewFinal */,
 				5BEE48DF1D14959500F7B63E /* TableViewFinalTests */,
-				5BEE48EA1D14959500F7B63E /* TableViewFinalUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,46 +278,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BEE48E91D14959500F7B63E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		104C0D5F87721B2338D06FAC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewFinalUITests/Pods-TableViewFinalUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1D9450B497EB55D82D15677E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		215C83EB22BC27BCBD5A28FF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -450,9 +378,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BEE48D21D14959400F7B63E /* ViewController.swift in Sources */,
 				5BEE49071D14A5A400F7B63E /* FactTableViewController.swift in Sources */,
-				5BEE49051D14A4ED00F7B63E /* FactTableVIewCell.swift in Sources */,
+				5BEE49051D14A4ED00F7B63E /* FactTableViewCell.swift in Sources */,
 				5BEE49031D149F5300F7B63E /* PlanetTableViewController.swift in Sources */,
 				5BEE48D01D14959400F7B63E /* AppDelegate.swift in Sources */,
 				5BEE48FF1D149E2A00F7B63E /* PlanetTableViewCell.swift in Sources */,
@@ -465,14 +392,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BEE48E51D14959500F7B63E /* TableViewFinalTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BEE48E71D14959500F7B63E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BEE48F01D14959500F7B63E /* TableViewFinalUITests.swift in Sources */,
+				5B763E891D4B9AA800B6722E /* PlanetTests.swift in Sources */,
+				5B763E8E1D4BA34600B6722E /* PlanetTableVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,11 +404,6 @@
 			isa = PBXTargetDependency;
 			target = 5BEE48CB1D14959400F7B63E /* TableViewFinal */;
 			targetProxy = 5BEE48E11D14959500F7B63E /* PBXContainerItemProxy */;
-		};
-		5BEE48ED1D14959500F7B63E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5BEE48CB1D14959400F7B63E /* TableViewFinal */;
-			targetProxy = 5BEE48EC1D14959500F7B63E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -601,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.TableViewFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -644,30 +561,6 @@
 			};
 			name = Release;
 		};
-		5BEE48FB1D14959500F7B63E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66F71C5B2A22B6765D669F48 /* Pods-TableViewFinalUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = TableViewFinalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.TableViewFinalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TableViewFinal;
-			};
-			name = Debug;
-		};
-		5BEE48FC1D14959500F7B63E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FBD434E219763D41C4DFE29 /* Pods-TableViewFinalUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = TableViewFinalUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.TableViewFinalUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TableViewFinal;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -694,15 +587,6 @@
 			buildConfigurations = (
 				5BEE48F81D14959500F7B63E /* Debug */,
 				5BEE48F91D14959500F7B63E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BEE48FA1D14959500F7B63E /* Build configuration list for PBXNativeTarget "TableViewFinalUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BEE48FB1D14959500F7B63E /* Debug */,
-				5BEE48FC1D14959500F7B63E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

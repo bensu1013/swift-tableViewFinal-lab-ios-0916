@@ -1,5 +1,5 @@
 //
-//  PlanetTableViewCell.swift
+//  FactTableVIewCell.swift
 //  TableViewFinal
 //
 //  Created by James Campagno on 6/17/16.
@@ -8,5 +8,5 @@
 
 import UIKit
 
-class PlanetTableViewCell: UITableViewCell {
+class FactTableViewCell: UITableViewCell {
 }
