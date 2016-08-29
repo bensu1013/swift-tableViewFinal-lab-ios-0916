@@ -1,17 +1,16 @@
-# TableView Final
+# TableView Lab- Bringing It All Together 
 
 ![Albert](http://i.imgur.com/ppc5nAG.jpg?1)  
 
 > If you want to live a happy life, tie it to a goal, not to people or things. -[Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein)
 
-## Learning Objectives
+## Overview
 
-* Complete this lab
-* There are tests written which should pass before submitting this lab
+In this lab, you'll create a complete iOS app from scratch. 
 
-## Directions
+## Instructions
 
-In this lab, you will create a complete iOS app from scratch. As you've probably guessed, this app will be backed by a table view. Tapping on a cell in the main table view will slide in a view that gives more details about the cell you tapped. The main view will show a list of planets, and tapping a cell will show some facts about that planet.
+The app that you'll create will be backed by a table view. Tapping on a cell in the main table view will slide in a view that gives more details about the cell you tapped. The main view will show a list of planets, and tapping a cell will show some facts about that planet.
 
 When you're done, the main view will look like this:
 
