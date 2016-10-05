@@ -11,17 +11,16 @@ target 'TableViewFinal' do
     inherit! :search_paths
     # Pods for testing
 
-	pod 'Quick', '~> 0.9'
-	pod 'Nimble', '~> 4.0’
-
+    pod 'Nimble', git: 'https://github.com/Quick/Nimble.git'
+    pod 'Quick', git: 'https://github.com/Quick/Quick.git'
   end
 
-  target 'TableViewFinalUITests' do
-    inherit! :search_paths
-    # Pods for testing
+end
 
-	pod 'KIF', '~> 3.4'
-
-  end
-
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
 end

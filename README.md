@@ -45,10 +45,10 @@ Next we'll finish the implementation of `FactTableViewController`, the table vie
 1. First, add a constant `String` called `factCellIdentifier`. This is the reuse identifier for the cells managed by this table view controller, so it will be used to dequeue a reusable cell for this table. Assign to this variable the string "FactCell".
 2. Create a property `planet` of type `Planet!`. This will store the planet whose facts are displayed in this table.
 3. Override `viewDidLoad()` to change the `title` of the table view to the name of the planet stored in the `planet` property. This title will be displayed in the nav bar. Don't forget to call `super.viewDidLoad()`, too!
-4. Override `numberOfSectionsInTableView(_:)` to return the number of sections in this table view (just one).
+4. Override `numberOfSections(in:)` to return the number of sections in this table view (just one).
 5. Override `tableView(_:numberOfRowsInSection:)` to return the number of rows in the table. This is equal to the number of facts you have for the planet being displayed in this view. Remember, the planet is stored in the `planet` property, and `Planet`s have a `facts` array that stores all their facts.
 
-We'll save the implementation of the final table view controller method, `tableView(_:cellForRowAtIndexPath:)` for later, after we've completed the implementation of `FactTableViewCell`, which requires some work in Interface Builder.
+We'll save the implementation of the final table view controller method, `tableView(_:cellForRowAt:)` for later, after we've completed the implementation of `FactTableViewCell`, which requires some work in Interface Builder.
 
 ### `PlanetTableViewController`
 
@@ -76,11 +76,11 @@ Here's what you need to do to complete this class:
 			2. Mars is home to the tallest mountain in the solar system.
 			3. Pieces of Mars have fallen to Earth.
 4. You will need to call `generatePlanetInfo()` to fill in the `planets` property. You can call this from an overriden `viewDidLoad()` method. Don't forget to call `super.viewDidLoad() first!
-5. Implement `numberOfSectionsInTableView(_:)`. There is only one section in this table view.
+5. Implement `numberOfSections(in:)`. There is only one section in this table view.
 6. Implement `tableView(_:numberOfRowsInSection:)`. The number of rows is equal to the number of planets tracked by this class.
-7. Implement `prepareForSegue(_:sender:)`. This method first needs to get the destination view controller using `segue.destinationViewController` and cast it to a view controller of type `FactTableViewController`. It then needs to get the index path for the selected row, and grab the correct planet from the `planets` property. Finally, it should set the `planet` property of the destination view controller to the selected planet. (If you need help, take a look at the previous labs and lessons for hints on how to implement this method properly.)
+7. Implement `prepare(for:sender:)`. This method first needs to get the destination view controller using `segue.destinationViewController` and cast it to a view controller of type `FactTableViewController`. It then needs to get the index path for the selected row, and grab the correct planet from the `planets` property. Finally, it should set the `planet` property of the destination view controller to the selected planet. (If you need help, take a look at the previous labs and lessons for hints on how to implement this method properly.)
 
-For now, we'll skip the implementations of the remaining table view source method, `tableView(_:cellForRowAtIndexPath:)`, since that requires `PlanetTableViewCell` to be implemented, which, in turn, requires some work in Interface Builder. We'll come back to this method later.
+For now, we'll skip the implementations of the remaining table view source method, `tableView(_:cellForRowAt:)`, since that requires `PlanetTableViewCell` to be implemented, which, in turn, requires some work in Interface Builder. We'll come back to this method later.
 
 ### Interface Builder
 
@@ -134,8 +134,8 @@ The cells for the detail table view are a lot easier to lay out. First, make sur
 
 Time to put the finishing touches on this app and ship it.
 
-1. Open up `PlanetTableViewController.swift` in Xcode's code editor. You need to override `tableView(_:cellForRowAtIndexPath:)`. This method should dequeue a reusable cell using the reuse identifier specified in the table view controller's `planetCellIdentifier` property, then initialize its labels and return the cell.
-2. You also need to implement the same method in `FactTableViewController`. Open up `FactTableViewController.swift` in Xcode's code editor. You need to override `tableView(_:cellForRowAtIndexPath:)`. Again, this should dequeue a reusable cell identified by the `factCellIdentifier` property, initialize its `factTextView` text view with the appropriate fact, and return the cell.
+1. Open up `PlanetTableViewController.swift` in Xcode's code editor. You need to override `tableView(_:cellForRowAt:)`. This method should dequeue a reusable cell using the reuse identifier specified in the table view controller's `planetCellIdentifier` property, then initialize its labels and return the cell.
+2. You also need to implement the same method in `FactTableViewController`. Open up `FactTableViewController.swift` in Xcode's code editor. You need to override `tableView(_:cellForRowAt:)`. Again, this should dequeue a reusable cell identified by the `factCellIdentifier` property, initialize its `factTextView` text view with the appropriate fact, and return the cell.
 
 That's it! If you've followed all these directions, you'll now have an app that works as described and shows the views in the screenshots above.
 
